@@ -12,7 +12,7 @@ it('should filter by juan', function(){
 });
 
 it('should clear search', function(){
-  var ele = element(by.css('.bar-header .input-button'));
+  var ele = element(by.css('.bar-header .button.clear'));
   ele.click();
 });
 
