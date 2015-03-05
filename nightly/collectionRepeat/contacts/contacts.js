@@ -1,6 +1,6 @@
 
 
-angular.module('contactsApp', ['ionic'])
+angular.module('contacts', ['ionic'])
 
 .filter('ionLetterDividers', function($parse) {
   // Reuse letter objects for angular digest, so it can assign an id
